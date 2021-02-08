@@ -6,8 +6,8 @@
     <script src="https://kit.fontawesome.com/51db22a717.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="main-container">
-        <div class="main-wrap">
+<div class="main-container">
+    <div class="main-wrap">
         <header>
             <div class="sel-lang-wrap">
                 <select class="lang-select">
@@ -19,7 +19,7 @@
                 <img src="img/logo.png">
             </div>
         </header>
-        <form class="login-input-section-wrap" action='auth'>
+        <form class="login-input-section-wrap" action='/Login' method = "post">
             <input name="id" type="text">
             <input name="password" type="text">
             <input type="submit" value="로그인">
@@ -27,17 +27,23 @@
         <section class="Easy-sgin-in-wrap">
             <h2>Easier sign in</h2>
             <ul class="sign-button-list">
-                <li><button><i class="fas fa-qrcode"></i><span>Sign in with QR code</span></button></li>
-                <li><button><i class="fab fa-facebook-square"></i><span>Facebook</span></button></li>
-                <li><button><i class="fab fa-line"></i><span>line</span></button></li>
+                <li>
+                    <button><i class="fas fa-qrcode"></i><span>Sign in with QR code</span></button>
+                </li>
+                <li>
+                    <button><i class="fab fa-facebook-square"></i><span>Facebook</span></button>
+                </li>
+                <li>
+                    <button><i class="fab fa-line"></i><span>line</span></button>
+                </li>
             </ul>
             <p class="forget-msg">Forgot your Username or Password? | Sign up</p>
         </section>
         <footer>
             <div class="copyright-wrap">
-            <span>    <img src="img/logo.png"> Copyright © NAVER Corp. All Rights Reserved.</span>
+                <span>    <img src="img/logo.png"> Copyright © NAVER Corp. All Rights Reserved.</span>
             </div>
         </footer>
-        </div>
     </div>
+</div>
 </body>
